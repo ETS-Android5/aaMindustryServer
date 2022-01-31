@@ -51,6 +51,9 @@ abstract class PlayerComp implements UnitController, Entityc, Syncc, Timerc, Dra
     transient String lastText = "";
     transient float textFadeTime;
 
+    transient int playTime = 0;
+    transient int donatorLevel = 0;
+
     transient HashMap<String, String> customValues = new HashMap<>();
 
     public boolean isBuilder(){
